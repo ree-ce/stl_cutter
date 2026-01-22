@@ -62,11 +62,12 @@ with st.sidebar:
             help="Height of the puzzle tab."
         )
     with col_sett_2:
-        num_tabs = st.number_input(
+        num_tabs = st.slider(
             "Tabs per Arm",
             min_value=1,
             max_value=5,
             value=1,
+            step=1,
             help="Number of tabs on each side."
         )
         tab_radius = st.slider(
