@@ -1,0 +1,9 @@
+streamlit
+trimesh
+shapely
+numpy
+scipy
+matplotlib
+rtree
+mapbox_earcut
+manifold3d
